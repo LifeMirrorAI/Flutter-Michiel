@@ -11,8 +11,8 @@ void main() {
 
   double radius = 1;
 
-  double area = calc_circle_area(radius);
-  print(area);
-  double volume = calc_sphr_vol(radius);
-  print(volume);
+  // double area = calc_circle_area(radius);
+  print(calc_circle_area(radius));
+  // double volume = calc_sphr_vol(radius);
+  print(calc_sphr_vol(radius));
 }
