@@ -4,7 +4,15 @@ void main() {
     return area;
   }
 
-  double radius = 5.9;
+  double calc_sphr_vol(double radius) {
+    var volume = 4 / 3 * (3.1415 * radius * radius * radius);
+    return volume;
+  }
+
+  double radius = 1;
+
   double area = calc_circle_area(radius);
   print(area);
+  double volume = calc_sphr_vol(radius);
+  print(volume);
 }
