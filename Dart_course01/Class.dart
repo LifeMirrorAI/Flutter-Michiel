@@ -13,8 +13,8 @@ class JollofRice {
 }
 
 void main() {
-  String RiceType = 'white';
-  int Rice_Qty = 1;
-  int Oil_Qty = 1;
-  JollofRice jollof = new JollofRice(RiceType, Rice_Qty, Oil_Qty);
+  // String RiceType = 'white';
+  // int Rice_Qty = 1;
+  // int Oil_Qty = 1;
+  JollofRice jollof = new JollofRice('white', 1, 1);
 }
